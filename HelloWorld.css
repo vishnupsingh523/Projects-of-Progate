@@ -1,0 +1,118 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+.header{
+  background-color:#26d0c9;
+  height:90px;
+}
+.header-text h1{
+  font-size:36px;
+  color:#fff;
+  padding:20px 40px;
+  float:left;
+}
+.header-text li{
+  float:left;
+  padding:33px 20px;
+  color:#fff;
+}
+
+.main{
+  padding:100px 80px;
+}
+.top-text h1{
+  font-size:140px;
+}
+
+
+.top-text h2{
+  font-size:60px;
+}
+.top-text span{
+  color:#ff4a4a;
+}
+
+.contents{
+  margin-top:100px;
+  height:500px;
+}
+.content-text{
+  font-size:28px;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom:15px;
+  margin-bottom:50px;
+}
+
+.content-items{
+  float:left;
+  margin-right:40px;
+}
+
+.content-items p{
+  margin-top:30px;
+  font-size:24px;
+}
+
+
+.footer{
+  padding-right:80px;
+  padding-left:80px;
+  padding-bottom:100px;
+}
+.footer-logo{
+  font-size:28px;
+  padding-bottom:15px;
+  border-bottom:2px solid #dee7ec;
+  margin-bottom:20px;
+}
+
+.footer p{
+  padding-bottom:10px;
+  padding-top:30px;
+}
+input,textarea{
+  padding:20px;
+  border:1px solid #dee7ec;
+  width:400px;
+}
+
+.submit-button{
+  font-size:18px;
+  color:#889eab;
+  background-color:#dee7ec;
+}
+.end{
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+  margin-top:40px;
+}
+.progate{
+  float: left;
+  font-size: 32px;
+}
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+
