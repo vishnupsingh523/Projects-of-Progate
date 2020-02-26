@@ -1,0 +1,31 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+.header-top{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgba(248, 246, 98, 0.726);
+    text-align: center;
+    border: 2px dashed black;
+
+}
+
+.header-top p{
+    padding:20px;
+}
+
+.header-top button{
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: rgba(233, 164, 164, 0.5);
+    color: blue;
+    border-radius: 20px;
+}
+.header-top button:hover{
+    cursor: pointer;
+    background-color: rgba(110, 106, 106, 0.534);
+}
