@@ -1,0 +1,62 @@
+@media screen and (min-width: 750px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(52, 11, 236, 0.644),rgba(8, 243, 8, 0.89));
+}
+.main{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background:#fff;
+    font-family: cursive;
+}
+.main p{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    color: rgb(71, 89, 255);
+}
+.form_text{
+    padding:40px 80px;
+    font-size: 20px;
+}
+.change{
+    width: 400px;
+    height: 30px;
+    border: 2px solid rgb(185, 181, 181);
+    border-radius: 6px;
+}
+
+.gender{
+    width: 15px;
+    height: 15px;
+}
+.form_text select{
+    font-family: cursive;
+    background-color: rgba(158, 155, 155, 0.863);
+
+}
+.form_text textarea{
+    font-family: cursive;
+    font-size: 20px;
+    padding:20px; width:530px;
+}
+.form_text .submit-f{
+    text-align: center;
+}
+.form_text .submit-f button{
+    font-family: cursive;
+    background-color: lightblue;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.form_text select{
+    cursor: pointer;
+}
+}

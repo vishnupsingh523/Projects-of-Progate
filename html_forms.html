@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="html_forms.css">
+    <link rel="stylesheet" media="screen and (min-width: 750px)" href="html_forms1.css">
+</head>
+<body>
+    <div class="main">
+        <p>Sign Up</p>
+    <form class="form_text">
+        <!--label is used to bind with the form-->
+        <label>First Name:</label><br>
+        <input type="text" class="change"> <br><br>     
+        <label>Last name:</label><br>
+        <input type="text"class="change"><br><br>
+        <label>Registration Number:</label><br>
+        <input type="number"class="change"><br><br>
+        <label>Contact:</label><br>
+        <input type="number" class="change"><br><br>
+        <label>Email Address:</label><br>
+        <input type="text" class="change"><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" name="Gender" class="gender">Male</input><br>
+        <input type="radio" name="Gender"class="gender">Female</input><br>
+        <input type="radio" name="Gender" class="gender">Prefer not to say</input><br><br>
+        <!--for dropdown menue-->
+        <label>Stream</label><br>
+        <select class="change">
+            <option value="">CSE</option>
+            <option value="">CSE-Honors</option>
+            <option value="">CSE-MBA</option>
+            <option value="">CSE- Integrated</option>
+        </select><br><br>
+        <label>Your Thoughts</label><br><br>
+        <textarea cols="30" rows="10"></textarea><br><br>
+        <div class="submit-f">
+        <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
