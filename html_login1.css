@@ -1,0 +1,64 @@
+@media screen and (min-width: 800px)
+{
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(81, 223, 25, 0.801),rgba(151, 241, 6, 0.733));
+    height: 670px;
+}
+.main{
+    margin-top: 120px;
+    margin-left: 480px;
+    margin-right: 480px;
+    background:rgba(100, 235, 195, 0.795);
+    font-family: cursive;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.main p{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-family: cursive;
+}
+.form_text{
+    padding:30px 50px;
+    border-radius: 10px;
+}
+
+.form_text .submit-f{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.form_text label{
+    font-size: 25px;
+}
+.form_text input{
+    padding: 10px;
+    margin-left: 6 0px;
+    border-radius:10px;
+    font-size: 15px;
+    font-family:cursive;
+    background-color: rgba(226, 221, 221, 0.61);
+    width: 430px;
+}
+.form_text .submit-f button{
+    font-family: cursive;
+    background-color: lightblue;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.form_text .submit-f a{
+    text-decoration: none;
+    color: black;
+}
+}
