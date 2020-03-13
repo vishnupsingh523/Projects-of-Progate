@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly; /* It is used to specify the space
+    or you can say to justify the space betweent the text and teh borderline
+    means it will automatically adjust the borderspacing from top bottom
+    left right according to the text and its tag which is used*/
+}
+
+.color{
+    font-family: cursive;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(253, 227, 109);
+    margin: 30px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.color:hover{
+    background-color: rgba(179, 174, 174, 0.712);
+    cursor: pointer;
+}
