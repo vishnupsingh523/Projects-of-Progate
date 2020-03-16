@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 2</title>
+    <link rel="stylesheet" href="DOM-2.css">
+</head>
+<body>
+    <div class="main">
+        <input id="username" placeholder="Username">
+        <br>
+        <input type="password" id="password" placeholder="Password">
+        <br>
+        <button onclick="fn1()" id="btn1">Submit</button>
+
+    </div>
+    <script>
+        function fn1(){
+            var username= document.getElementById('username').value;
+            var password= document.getElementById('password').value;
+            alert(`Username: ${username}\nPassword: ${password}`);
+        }
+    </script>
+</body>
+</html>
