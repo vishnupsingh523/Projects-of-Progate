@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 4: Select Option</title>
+</head>
+<style>
+    body{
+        background-color: aquamarine;
+    }
+    .main{
+        background-color: #fff;
+        padding: 20px;
+        font-size: 18px;
+        font-variant: small-caps;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .stream, .main p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .submit{
+        text-align: center;
+    }
+    button{
+        font-size: 20px;
+        margin-top: 20px;
+        padding: 5px;
+        align-self: center;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    option{
+        font-family: cursive;
+        font-size: 15px;
+    }
+</style>
+<body>
+    <div class="main">
+        <p>Select Stream</p>
+        <div class="stream">
+            <select id="subject">
+                <option value="none">- none -</option>
+                <option value="CSE">Computer Science and Engineering</option>
+                <option value="EEE">Electronics and Electrical Engineering</option>
+                <option value="Biotechnology">Biotechnology</option>
+                <option value="Microbiology">Microbiology</option>
+                <option value="MBBS">MBBS</option>
+
+            </select>
+        </div>
+        <div class="submit">
+            <button type="submit" onclick="writes()">Submit</button>
+        </div>
+    </div>
+
+    <script>
+
+        function writes(){
+            var stream= document.getElementById('subject').value;
+            if(stream== "none")
+            alert(`None of the Stream is selected.`);
+            else
+            alert(`The selected stream is: ${stream}`)
+        }
+    </script>
+</body>
+</html>
