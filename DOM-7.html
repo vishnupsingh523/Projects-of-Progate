@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 6: Form Tag</title>
+</head>
+
+<body>
+    <form onsubmit=" return validate()" 
+    action="DOM-5.html">
+        <input id="uname" type="email" placeholder="Username">
+        <label id="l_user" style="color: red; visibility:hidden;"> ! Invalid</label>
+        <br><br>
+        <input id="pass" type="password" placeholder="Password">
+        <label id="l_pass" style="color: red; visibility:hidden;"> ! Invalid</label>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+    function validate()
+    {
+        var username = document.getElementById("uname")
+        var passowrd = document.getElementById("pass")
+
+        if(username.value.trim()=="")
+        {
+            alert("Blank Username")
+            username.style.border = "2px solid red"
+            document.getElementById("l_user").style.visibility="visible";
+            return false;
+        }
+        else if(password.value.trim()=="")
+        {
+            alert("Blank Password")
+            document.getElementById("l_pass").style.visibility="visible";
+            return false;
+        }
+        else if(password.value.trim().length()<5)
+        {
+            alert("Password too short")
+        }
+        else
+        return true;
+    }
+   </script>
+</body>
+</html>
